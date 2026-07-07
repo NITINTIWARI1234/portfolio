@@ -37,13 +37,23 @@ const Hero = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-              View Projects
-            </button>
+            <a
+              href="#projects"
+              className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+            >
+             
+                View Projects
+              
+            </a>
 
-            <button className="border border-blue-500 text-blue-500 px-6 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-blue-500 text-blue-500 px-6 py-3 rounded-lg hover:bg-blue-500 hover:text-white transition"
+            >
               Download Resume
-            </button>
+            </a>
 
             <a
               href="https://github.com/NITINTIWARI1234"
@@ -79,7 +89,7 @@ const Hero = () => {
         {/* Right Section */}
         <div className="flex justify-center">
           <Image
-            src="/images/profile.png"
+            src="/images/pro.png"
             alt="Profile"
             width={350}
             height={350}

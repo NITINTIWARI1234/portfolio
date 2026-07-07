@@ -94,16 +94,16 @@ const Skills = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
 
           {/* Left Section */}
-          <div className="flex justify-center">
-
+          {/* Left Section */}
+          <div className="relative w-full h-[400px] md:h-full min-h-[500px]">
             <Image
               src="/images/skills.png"
               alt="Developer Illustration"
-              width={650}
-              height={650}
+              fill
+              className="object-cover object-center rounded-2xl"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
-
-          </div>
+          </div>  
 
           {/* Right Section */}
           <div>

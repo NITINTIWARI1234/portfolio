@@ -1,17 +1,17 @@
 import Navbar from "../components/layout/Navbar";
-import Hero from "../components/sections/Hero";
-import About from "../components/sections/About";
-import Skills from "../components/sections/Skills";
-import Projects from "../components/sections/Projects";
-import Achievements from "../components/sections/Achivements";
-import Contact from "../components/sections/Contacts";
+import Hero from "../components/Sections/Hero";
+import About from "../components/Sections/About";
+import Skills from "../components/Sections/Skills";
+import Projects from "../components/Sections/Projects";
+import Achievements from "../components/Sections/Achivements";
+import Contact from "../components/Sections/Contacts";
 import Footer from "../components/layout/Footer";
 
 export default function Home() {
   return (
      <>
       <Navbar />
-      <p>paragraph</p>
+     
       <main>
         <Hero />
         <About />

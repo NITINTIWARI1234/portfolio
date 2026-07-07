@@ -2,6 +2,8 @@
 
 
 import React from 'react'
+import Image from "next/image";
+
 
 
 import { useState } from "react";
@@ -13,9 +15,12 @@ const Navbar = () => {
     <nav className="bg-white shadow-md text-black sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-blue-600">
-          Nitin
-        </h1>
+        <Image
+          src="/Images/lo.png"
+          alt="Logo"
+          width={100}
+          height={50}
+        />
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 font-medium">
