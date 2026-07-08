@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FadeIn from "../animations/FadeIn";
 
 import {
   SiReact,
@@ -85,6 +86,7 @@ const skills = [
 
 const Skills = () => {
   return (
+    <FadeIn>
     <section
       id="skills"
       className="bg-black text-white py-24"
@@ -165,6 +167,7 @@ const Skills = () => {
 
       </div>
     </section>
+    </FadeIn>
   );
 };
 

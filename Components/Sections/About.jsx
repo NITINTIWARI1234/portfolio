@@ -1,8 +1,10 @@
 import React from 'react'
+import FadeIn from "../animations/FadeIn";
 
 
 const About = () => {
   return (
+    <FadeIn>
     <section
       id="about"
       className="bg-black text-white py-24"
@@ -23,6 +25,7 @@ const About = () => {
 
       </div>
     </section>
+    </FadeIn>
   );
 };
 

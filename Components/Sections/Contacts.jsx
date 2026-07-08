@@ -1,3 +1,4 @@
+import FadeIn from "../animations/FadeIn";
 import {
   FaEnvelope,
   FaLinkedin,
@@ -7,6 +8,7 @@ import {
 
 const Contacts = () => {
   return (
+      <FadeIn>
     <section
       id="contact"
       className="bg-gray-950 text-white py-24"
@@ -103,6 +105,7 @@ const Contacts = () => {
         </div>
       </div>
     </section>
+    </FadeIn>
   );
 };
 

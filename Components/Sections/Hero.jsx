@@ -4,9 +4,11 @@ import React from "react";
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import FadeIn from "../animations/FadeIn";
 
 const Hero = () => {
   return (
+    <FadeIn>
     <section
       id="home"
       className="min-h-screen flex items-center bg-gray-950 text-white"
@@ -98,6 +100,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    </FadeIn>
   );
 };
 

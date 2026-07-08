@@ -1,3 +1,5 @@
+import FadeIn from "../animations/FadeIn";
+
 const projects = [
   {
     title: "AI Card Generator",
@@ -33,6 +35,7 @@ const projects = [
 
 const Projects = () => {
   return (
+    <FadeIn>
     <section
       id="projects"
       className="bg-gray-950 text-white py-24"
@@ -132,6 +135,7 @@ const Projects = () => {
 
       </div>
     </section>
+    </FadeIn>
   );
 };
 
